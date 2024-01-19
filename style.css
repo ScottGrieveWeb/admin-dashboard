@@ -1,4 +1,30 @@
-body {
-    height: 100vh;
+body,
+html {
+  height: 100%;
+  margin: 0;
 }
 
+.container {
+    text-align: center;
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+    grid-template-rows: 150px 4fr;
+}
+
+.main-content {
+    grid-column-start: 2;
+    
+}
+
+.sidebar {
+    grid-row-start: 1;
+    grid-row-end: 3;
+}
+
+.top-header {
+    display: flex;
+}
+
+.btm-header {
+    display: flex;
+}
