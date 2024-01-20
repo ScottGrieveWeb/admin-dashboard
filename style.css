@@ -44,7 +44,10 @@ ul {
     margin-right: 50px;
     gap: 25px;
     font-weight: 900;
+}
 
+#side-btm {
+    margin-top: 50px;
 }
 
 
