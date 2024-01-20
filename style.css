@@ -4,6 +4,10 @@ html {
   margin: 0;
 }
 
+ul {
+    list-style-type: none;
+}
+
 .container {
     text-align: center;
     display: grid;
@@ -22,6 +26,14 @@ html {
     grid-row-end: 3;
     background-color: #1992D4;
     color: white;
+}
+
+.side-title {
+    display: flex;
+    align-items: center;
+    margin-left: 10px;
+    margin-right: 50px;
+    justify-content: space-between;
 }
 
 
