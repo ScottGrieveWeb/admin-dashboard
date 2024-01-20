@@ -33,7 +33,17 @@ ul {
     align-items: center;
     margin-left: 10px;
     margin-right: 50px;
-    justify-content: space-between;
+    gap: 20px;
+}
+
+.side-item {
+    display: flex;
+    align-items: center;
+    margin-left: -26px;
+    margin-right: 50px;
+    gap: 25px;
+    font-weight: 900;
+
 }
 
 
