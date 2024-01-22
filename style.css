@@ -67,3 +67,48 @@ ul {
     width: 600px;
     border-radius: 20px;
 }
+
+.top-header {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 15px;
+    align-items: center;
+    margin-left: 50px;
+    margin-right: 80px;
+}
+
+#search,
+#options {
+    display: flex;
+    align-items: center;
+}
+
+#search {
+    gap: 20px;
+}
+
+#options {
+    gap: 30px;
+}
+
+.btm-header {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+    align-items: center;
+    margin-left: 50px;
+    margin-right: 80px;
+}
+
+#intro {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+#greeting {
+    display: flex;
+    flex-direction: column;
+    text-align: start;
+    gap: -10px;
+}
