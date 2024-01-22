@@ -59,3 +59,11 @@ ul {
 .btm-header {
     display: flex;
 }
+
+.searchbar {
+    background-color: #E2E8F0;
+    border-style: none;
+    height: 30px;
+    width: 600px;
+    border-radius: 20px;
+}
