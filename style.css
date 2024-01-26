@@ -110,5 +110,36 @@ ul {
     display: flex;
     flex-direction: column;
     text-align: start;
-    gap: -10px;
+}
+
+#username {
+    margin-top: 0px;
+}
+
+#greeting-intro {
+    margin-bottom: 8px;
+}
+
+button {
+    background: none;
+    color: inherit;
+    border: none;
+    padding: 0;
+    font: inherit;
+    cursor: pointer;
+    outline: inherit;
+}
+
+.btn {
+    background-color: #1992D4;
+    color: white;
+    height: 40px;
+    width: 100px;
+    border-radius: 20px;
+}
+
+#header-btns {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
 }
