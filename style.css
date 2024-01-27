@@ -146,11 +146,31 @@ button {
 
 .main-content {
     display: grid;
-    grid-template-columns: 4fr 1fr;
+    grid-template-columns: 3fr 1fr;
     grid-template-rows: 1fr 1fr;
 }
 
 .projects {
     grid-row-start: 1;
     grid-row-end: 3;
+}
+
+.announcements {
+    margin-right: 40px;
+    text-align: start;
+}
+
+#announcement-list {
+    border-radius: 8px;
+    background-color: white;
+    padding-right: 20px;
+    padding-left: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.card-item>p {
+    color: #636363;
+    font-size: 14px;
+    margin-top: -10px;
 }
