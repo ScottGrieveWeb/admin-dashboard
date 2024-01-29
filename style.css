@@ -10,6 +10,7 @@ ul {
 }
 
 .container {
+    height: 100%;
     text-align: center;
     display: grid;
     grid-template-columns: 0.8fr 4fr;
