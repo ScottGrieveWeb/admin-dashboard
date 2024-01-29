@@ -22,6 +22,7 @@ ul {
     grid-row-start: 2;
     grid-row-end: 3;
     background-color: #E2E8F0;
+    padding-bottom: 100px;
 }
 
 .sidebar {
@@ -164,14 +165,48 @@ button {
 #announcement-list {
     border-radius: 8px;
     background-color: white;
-    padding-right: 20px;
+    padding-right: 80px;
     padding-left: 30px;
     padding-top: 10px;
     padding-bottom: 10px;
+    display: grid;
 }
 
 .card-item>p {
     color: #636363;
     font-size: 14px;
     margin-top: -10px;
+}
+
+.trending {
+    margin-right: 40px;
+    margin-top: -10px;
+    text-align: start;
+}
+
+#trending-list {
+    border-radius: 8px;
+    background-color: white;
+    padding-right: 40px;
+    padding-left: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.trending-item {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.item-text {
+    color: #636363;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.item-sub {
+    margin-top: -10px;
+    font-size: 14px;
+    font-weight: 400;
 }
